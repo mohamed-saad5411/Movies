@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.rate {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 3px green solid;
+  transform: translateY(-50%);
+}
+
+.card-home{
+  min-height: 25rem;
+}
+.card-movie{
+  min-height: 30rem;
+}
+.logo ,.logo-footer{
+  width: 10rem;
+}
+.pointer{
+  cursor: pointer;
+
+}
+.main-header{
+  background-image: linear-gradient(rgba(3, 37, 65, 0.1), rgba(0, 0, 122, 0.9)), url(Assets/5GISMqlRXMEyBrgEqyvhaMMuQmJ.jpg);
+  height: 60vh;
+  background-position: center center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+
+.trending{
+  /* background-image: linear-gradient(rgba(3, 37, 65, 0.1), rgba(0, 0, 122, 0.9)), url(Assets/5GISMqlRXMEyBrgEqyvhaMMuQmJ.jpg); */
+  background-image: url(/src/Assets/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg);
+  background-position: bottom bottom;
+  background-size: cover;
+}
+.latest-trailers{
+  background-image: linear-gradient(rgba(3, 37, 65, 0.1), rgba(0, 0, 122, 0.9)), url(Assets/5GISMqlRXMEyBrgEqyvhaMMuQmJ.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.details{
+  background-image: linear-gradient(rgba(31, 10, 10, 0.5), rgba(31, 10, 10, 1)), url(Assets/22.jpg);
+  background-position: center center;
+  background-size: cover;
+}
